@@ -1,0 +1,170 @@
+.main{
+  display: flex;
+  
+  width: 100%;
+  height: 80px;
+  background-color: rgb(236, 243, 248);
+  box-shadow: 1px 1px 8px rgb(190, 190, 228);
+}
+
+.onediv{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+
+}
+.logo{
+  font-family: fantasy;
+  margin-left: 17px;
+  font-size: 25px;
+  color: rgb(28, 28, 65);
+  text-shadow: 1px 1px 5px rgb(228, 228, 231);
+}
+#logoimg{
+  width: 40px;
+  height: 40px;
+  margin-left: -30px;
+}
+.nav{
+  width: 80%;
+  padding-right: 50px;
+  display: flex;
+  justify-content:flex-end;
+}
+
+[class*='classlink']{
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+  font-family: serif;
+  
+}
+
+[class*='links']{
+  text-decoration: none;
+  width: 150px;
+  height: 30px;
+  color: white;
+  font-family: serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg{
+  background-color: rgb(58, 24, 24);
+  height: 577px;
+  /* margin-top: 80px; */
+}
+.divh1{
+  display: flex;
+  justify-content: center;
+}
+.divh1 h1{
+  font-size: 50px;
+  /* text-shadow: 1px 1px 4px rgb(133, 133, 172); */
+  color: orange;
+  margin-top: 70px;
+}
+.flexdisplay{
+  display: flex;
+  justify-content: space-around;
+ 
+
+}
+.formm{
+  margin-top: 20px;
+}
+
+.sel1{
+  margin-left: 20px;
+  color: blue;
+  border-radius: 4px;
+  background-color: orange;
+}
+.sel2{
+  margin-left: 20px;
+  color: blue;
+  border-radius: 4px;
+  background-color: orange;
+}
+
+.submitbtn{
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.listingli{
+  border-bottom: 2px dotted red;
+  color: rgb(61, 31, 31);
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;padding-bottom: 10px;
+}
+.listingli1{
+  margin: 10px;
+  padding: 28px;
+  color: rgb(61, 31, 31);
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+.listingli:hover{
+  color: royalblue;
+  text-shadow: 1px 1px 4px gray;
+  cursor: pointer;
+}
+li p{
+  width: 350px;
+  margin-left: 10px;
+}
+.symbol{
+  font-family:cursive;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+}
+.currentrate{
+  font-family: cursive;
+  font-size: 17px;
+  color: blue;
+}
+.fisttext{
+  font-size: 30px;
+  color: orange;
+  font-weight: bold;
+  margin-left: -39px;
+  /* text-shadow: 1px 1px 3px rgb(151, 100, 100); */
+}
+.rates{
+  font-size: 30px;
+  color: orange;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 5px rgb(173, 114, 114); */
+}
+.maintextdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maintext{
+  color: rgb(66, 70, 52);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: monospace;
+}
+#span{
+  font-family: cursive;
+  color: rebeccapurple;
+}
