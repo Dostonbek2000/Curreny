@@ -4,14 +4,14 @@ import axios from 'axios'
 import { useState } from 'react'
 const Firstpage = () => {
     const [ratesList, setRateslist] = useState([])
-    const arr= []
+    const arr = []
 
-   for (let i = 1; i < ratesList.length; i++){
-       arr.push(i)
-      
-   }
- 
-    
+    for (let i = 1; i < ratesList.length; i++) {
+        arr.push(i)
+
+    }
+
+
     useEffect(() => {
         getMydata()
     }, [])
@@ -30,15 +30,7 @@ const Firstpage = () => {
 
     return (
         <div>
-            {/* <select name="" id="">
-                {
-                    ratesList.map((d) => (
-                        <option value={d.symbol} key={d.symbol}>
-                            {d.symbol}
-                        </option>
-                    ))
-                }
-            </select> */}
+
             <div className='maintextdiv'>
                 <p className="maintext">Default Rate Symbol : <span id='span'> EUR</span></p>
             </div>
@@ -47,13 +39,8 @@ const Firstpage = () => {
                 <p className="rates">Rates Here</p>
             </div>
             <ul className='listing'>
-                
-                    
-  
-
-               
-                    {ratesList.map((d) => (
-                    <li className='listingli' key={d.symbol}><p className='symbol'>Country : {d.symbol}</p>
+                {ratesList.map((d, index) => (
+                    <li className='listingli' key={d.symbol}><p className='symbol'>{index + 1}. Country : {d.symbol}</p>
                     <p className='currentrate'>Current exchange rates : {d.rate}</p></li>
                 ))}
 
